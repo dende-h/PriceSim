@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>プランを入力するページ</title>
+</head>
+<body>
+<h1>docomoスマホ料金プランの選択</h1>
+<form action = "PliceSim.jsp" method = "post">
+	《基本プラン》<br>
+	<select name = "plan1">
+		<option value = 6650>5Gギガホプレミア（無制限）</option>
+	    <option value = 5150>5Gギガホプレミア～3GB</option>
+		<option value = 6550>ギガホプレミア（60GB）</option>
+	    <option value = 5050>ギガホプレミア～3GB</option>
+	    <option value = 6150>(5G含む)ギガライト5GB～7GB</option>
+	    <option value = 5150>(5G含む)ギガライト3GB～5GB</option>
+	    <option value = 4150>(5G含む)ギガライト1GB～3GB</option>
+	    <option value = 3150>(5G含む)ギガライト～1GB</option>
+	</select>
+	<br><br>
+	《通話オプション》<br>
+	<select name = "telPlan1">
+	    <option value = 1700>かけ放題オプション</option>
+	    <option value = 700>５分通話無料オプション</option>
+		<option value = 0>通話オプションなし</option>
+	</select>
+	<br><br>《みんなドコモ割》<br>
+	<select name = "discount1">
+		<option value = 1000>ファミリー割引3人以上</option>
+		<option value = 500>ファミリー割引2人以上</option>
+		<option value = 0>ファミリー割引なし</option>
+	</select>
+	<br><br>
+	《光セット割》<br>
+	<select name = "setDis1">
+		<option value = 1000>光セット割引あり</option>
+		<option value = 0>光セット割引なし</option>
+	</select>
+	<br><br>
+	《dカード支払い割》<br>
+	<select name = "payDis1">
+		<option value = 170>dカード支払い割あり</option>
+		<option value = 0>dカード支払い割なし</option>
+	</select>
+	<br>
+	<input type = "submit" value = "料金を計算する">
+	
+	
+</form>
+
+</body>
+</html>
