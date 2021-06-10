@@ -68,7 +68,7 @@ public class PliceSim extends HttpServlet {
 		telFee *= tax;
 
 	
-      out.println("<center><font size = +1>選択したプランは税込み   </font><font size = +2><font color = red><b>" + Math.round(telFee) + "円   </b></font></font><font size = +1>です。</font></center>");
+      out.println("<center><font size = +1>選択した料金プランは税込み   </font><font size = +2><font color = red><b>" + Math.round(telFee) + "円   </b></font></font><font size = +1>です。</font></center>");
 	   
 	}
 
