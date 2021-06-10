@@ -41,7 +41,7 @@ public class PliceSim extends HttpServlet {
 	    response.setContentType("text/html;charset=UTF-8");
 	    PrintWriter out = response.getWriter();
 	   out.println("<html><body>");
-	   out.println("<center><h2>選択した料金プランの計算結果</h2></center>");
+	   out.println("<center><h2>料金計算結果</h2></center>");
 	   
 	   String planIn,telPlanIn,discountIn,setDisIn,payDisIn;
 	   double plan,telPlan,discount,setDis,payDis,telFee;
